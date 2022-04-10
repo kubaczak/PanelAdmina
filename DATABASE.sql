@@ -73,9 +73,9 @@ INSERT INTO `loginlog` (`ID`, `user_ID`, `data`, `token`, `adres_ip`) VALUES
 (10, 1, '2021-05-25 19:11:17', 'qAk1BPUftLaoPSnRchjXAyy2NxGuAzlemolYUase6quWAWrQGOUnGyc0gVhMQR0d', '::1'),
 (11, 1, '2021-06-04 18:28:02', '13HeTgpIRWocYoCz8ahA0ymxcGB6XPP2xHKkmFj8oHM98JTonDh4lZsUm3Wty3Rz', '::1'),
 (12, 1, '2021-06-05 11:55:54', 'axasq0VS6Bf7u7CHHcGMiaXzcqNETVlvr05TRuxiAKHD3puvKkgVev6OWO00DfmB', '::1'),
-(13, 1, '2021-06-05 12:12:16', 'xeRK0Wx99sZmMFULdMtVtzekSLyOYNxOQ0aZtCCynqJaKzdQjWgp2sIiU5bgFsuG', '2.57.8.202'),
-(14, 1, '2021-06-05 12:13:25', '6c3bnETMnNHaHlWnxq3GofvcIaFdiyH0YMEoVPQYcz87nxX58QA2E7kTX0V8Xlj4', '46.20.58.179'),
-(15, 1, '2021-06-05 12:13:58', 'iqnvEoBAbJ215o9M55HB2rF3uzVkXngCS62REYyHEPxBy7EaFgPLAkpIEMnBXehh', '2.57.8.202');
+(13, 1, '2021-06-05 12:12:16', 'xeRK0Wx99sZmMFULdMtVtzekSLyOYNxOQ0aZtCCynqJaKzdQjWgp2sIiU5bgFsuG', ''),
+(14, 1, '2021-06-05 12:13:25', '6c3bnETMnNHaHlWnxq3GofvcIaFdiyH0YMEoVPQYcz87nxX58QA2E7kTX0V8Xlj4', ''),
+(15, 1, '2021-06-05 12:13:58', 'iqnvEoBAbJ215o9M55HB2rF3uzVkXngCS62REYyHEPxBy7EaFgPLAkpIEMnBXehh', '');
 
 -- --------------------------------------------------------
 
@@ -127,7 +127,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`ID`, `imie`, `nazwisko`, `email`, `haslo`, `login`) VALUES
-(1, 'Jakub', 'Wisniewski', 'kubaczak@outlook.com', '$2y$10$Dwu76NTRGMYZEaqD9SQrz.qAXwgzOqKhd139PW6eHp9HCtpLr99BS', 'admin');
+(1, 'Jakub', 'Wisniewski', '', '', 'admin');
 
 --
 -- Indeksy dla zrzutów tabel
